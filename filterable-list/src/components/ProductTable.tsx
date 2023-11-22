@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+
 import { products } from "../assets/products";
 import ProductCategoryRow from "./ProductCategoryRow";
 import ProductRow from "./ProductRow";
@@ -42,7 +43,7 @@ const ProductTable: React.FC<Props> = ({ search, inStockOnly }) => {
   });
 
   return (
-    <div className="grid grid-cols-2 grid-rows-auto">
+    <div className="grid grid-cols-2 grid-rows-auto mt-4">
       <div className="font-bold">Name</div>
       <div className="font-bold">Price</div>
       {productRows}

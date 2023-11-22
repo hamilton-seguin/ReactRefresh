@@ -1,12 +1,8 @@
-import { products } from './assets/products'
-import FilterableList from './components/FilterableList'
-import './App.css'
+import FilterableList from "./components/FilterableList";
+import "./App.css";
 
 function App() {
-
-  return (
-    <FilterableList products={products}/>
-  )
+  return <FilterableList />;
 }
 
-export default App
+export default App;
